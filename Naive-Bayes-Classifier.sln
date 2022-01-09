@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naive-Bayes-Classifier", "Naive-Bayes-Classifier\Naive-Bayes-Classifier.csproj", "{137564AE-A977-4A70-8406-B68CB653F14B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{137564AE-A977-4A70-8406-B68CB653F14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137564AE-A977-4A70-8406-B68CB653F14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137564AE-A977-4A70-8406-B68CB653F14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137564AE-A977-4A70-8406-B68CB653F14B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
