@@ -10,12 +10,12 @@ namespace Naive_Bayes_Classifier
         {
             Console.WriteLine("Naive Bayes\n");
             var filePath = "corpus.txt";
-            var predictionVarCount = 3; // Number predictor variables
-            var classCount = 2; // Number classes
-            var totalDataItems = 40; // Number data items
+            var predictionVarCount = 3;
+            var classCount = 2;
+            var totalDataItems = 40;
             var data = LoadData(filePath, totalDataItems, predictionVarCount + 1, ',');
             Console.WriteLine("Training data:");
-            for (int i = 0; i < 5; ++i)
+            for (int i = 0; i < totalDataItems; ++i)
             {
                 Console.Write("[" + i + "] ");
                 for (int j = 0; j < predictionVarCount + 1; ++j)
@@ -23,7 +23,7 @@ namespace Naive_Bayes_Classifier
                     Console.Write(data[i][j] + " ");
                 }
 
-                Console.WriteLine("");
+                Console.WriteLine();
             }
 
             Console.WriteLine(". . . \n");
@@ -35,8 +35,7 @@ namespace Naive_Bayes_Classifier
             {
                 Console.Write(X[i] + " ");
             }
-
-            Console.WriteLine("\n");
+            Console.WriteLine();
             // Compute joint counts and y counts
             for (int i = 0; i < totalDataItems; ++i)
             {
